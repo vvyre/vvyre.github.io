@@ -15,7 +15,14 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "jsxImportSource": "@emotion/react",
-
+    "baseUrl": "src",
+    "paths": {
+      "utils/*": ["./utils/*"],
+      "hooks/*": ["./hooks/*"],
+      "types/*": ["./types/*"],
+      "stores/*": ["./stores/*"],
+      "components/*": ["./components/*"]
+    },
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
